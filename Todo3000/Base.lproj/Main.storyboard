@@ -32,7 +32,14 @@
                             <outlet property="delegate" destination="AqZ-ae-YtG" id="VeE-kd-RnQ"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="The Get Yo Shit Together App" id="4hy-N5-fGV"/>
+                    <navigationItem key="navigationItem" title="The Get Yo Shit Together App" id="4hy-N5-fGV">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="yFo-Sj-xKH">
+                            <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <connections>
+                                <action selector="addButtonPressed:" destination="AqZ-ae-YtG" id="5NW-rV-seP"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vdS-oq-pyC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -48,7 +55,7 @@
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="barTintColor" red="1" green="0.58699181664796085" blue="0.011195557700763969" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <textAttributes key="titleTextAttributes">
-                            <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
                             <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <color key="textShadowColor" red="0.92064562182741116" green="0.54212863288862212" blue="0.019271200096882046" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <offsetWrapper key="textShadowOffset" horizontal="1" vertical="1"/>
